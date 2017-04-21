@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		90CE29C21EAA633300B8C6E0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90CE29C11EAA633300B8C6E0 /* AppDelegate.swift */; };
+		90CE29C41EAA633300B8C6E0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90CE29C31EAA633300B8C6E0 /* ViewController.swift */; };
+		90CE29C71EAA633300B8C6E0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90CE29C51EAA633300B8C6E0 /* Main.storyboard */; };
+		90CE29C91EAA633300B8C6E0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90CE29C81EAA633300B8C6E0 /* Assets.xcassets */; };
+		90CE29CC1EAA633300B8C6E0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90CE29CA1EAA633300B8C6E0 /* LaunchScreen.storyboard */; };
+		90CE29D71EAA633300B8C6E0 /* NotSoCleverBotTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90CE29D61EAA633300B8C6E0 /* NotSoCleverBotTests.swift */; };
+		90CE29E21EAA633300B8C6E0 /* NotSoCleverBotUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90CE29E11EAA633300B8C6E0 /* NotSoCleverBotUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		90CE29D31EAA633300B8C6E0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 90CE29B61EAA633300B8C6E0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 90CE29BD1EAA633300B8C6E0;
+			remoteInfo = NotSoCleverBot;
+		};
+		90CE29DE1EAA633300B8C6E0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 90CE29B61EAA633300B8C6E0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 90CE29BD1EAA633300B8C6E0;
+			remoteInfo = NotSoCleverBot;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		90CE29BE1EAA633300B8C6E0 /* NotSoCleverBot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NotSoCleverBot.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		90CE29C11EAA633300B8C6E0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		90CE29C31EAA633300B8C6E0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		90CE29C61EAA633300B8C6E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		90CE29C81EAA633300B8C6E0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		90CE29CB1EAA633300B8C6E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		90CE29CD1EAA633300B8C6E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		90CE29D21EAA633300B8C6E0 /* NotSoCleverBotTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NotSoCleverBotTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		90CE29D61EAA633300B8C6E0 /* NotSoCleverBotTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotSoCleverBotTests.swift; sourceTree = "<group>"; };
+		90CE29D81EAA633300B8C6E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		90CE29DD1EAA633300B8C6E0 /* NotSoCleverBotUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NotSoCleverBotUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		90CE29E11EAA633300B8C6E0 /* NotSoCleverBotUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotSoCleverBotUITests.swift; sourceTree = "<group>"; };
+		90CE29E31EAA633300B8C6E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		90CE29BB1EAA633300B8C6E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90CE29CF1EAA633300B8C6E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90CE29DA1EAA633300B8C6E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		90CE29B51EAA633300B8C6E0 = {
+			isa = PBXGroup;
+			children = (
+				90CE29C01EAA633300B8C6E0 /* NotSoCleverBot */,
+				90CE29D51EAA633300B8C6E0 /* NotSoCleverBotTests */,
+				90CE29E01EAA633300B8C6E0 /* NotSoCleverBotUITests */,
+				90CE29BF1EAA633300B8C6E0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		90CE29BF1EAA633300B8C6E0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				90CE29BE1EAA633300B8C6E0 /* NotSoCleverBot.app */,
+				90CE29D21EAA633300B8C6E0 /* NotSoCleverBotTests.xctest */,
+				90CE29DD1EAA633300B8C6E0 /* NotSoCleverBotUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		90CE29C01EAA633300B8C6E0 /* NotSoCleverBot */ = {
+			isa = PBXGroup;
+			children = (
+				90CE29C11EAA633300B8C6E0 /* AppDelegate.swift */,
+				90CE29C31EAA633300B8C6E0 /* ViewController.swift */,
+				90CE29C51EAA633300B8C6E0 /* Main.storyboard */,
+				90CE29C81EAA633300B8C6E0 /* Assets.xcassets */,
+				90CE29CA1EAA633300B8C6E0 /* LaunchScreen.storyboard */,
+				90CE29CD1EAA633300B8C6E0 /* Info.plist */,
+			);
+			path = NotSoCleverBot;
+			sourceTree = "<group>";
+		};
+		90CE29D51EAA633300B8C6E0 /* NotSoCleverBotTests */ = {
+			isa = PBXGroup;
+			children = (
+				90CE29D61EAA633300B8C6E0 /* NotSoCleverBotTests.swift */,
+				90CE29D81EAA633300B8C6E0 /* Info.plist */,
+			);
+			path = NotSoCleverBotTests;
+			sourceTree = "<group>";
+		};
+		90CE29E01EAA633300B8C6E0 /* NotSoCleverBotUITests */ = {
+			isa = PBXGroup;
+			children = (
+				90CE29E11EAA633300B8C6E0 /* NotSoCleverBotUITests.swift */,
+				90CE29E31EAA633300B8C6E0 /* Info.plist */,
+			);
+			path = NotSoCleverBotUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		90CE29BD1EAA633300B8C6E0 /* NotSoCleverBot */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 90CE29E61EAA633300B8C6E0 /* Build configuration list for PBXNativeTarget "NotSoCleverBot" */;
+			buildPhases = (
+				90CE29BA1EAA633300B8C6E0 /* Sources */,
+				90CE29BB1EAA633300B8C6E0 /* Frameworks */,
+				90CE29BC1EAA633300B8C6E0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NotSoCleverBot;
+			productName = NotSoCleverBot;
+			productReference = 90CE29BE1EAA633300B8C6E0 /* NotSoCleverBot.app */;
+			productType = "com.apple.product-type.application";
+		};
+		90CE29D11EAA633300B8C6E0 /* NotSoCleverBotTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 90CE29E91EAA633300B8C6E0 /* Build configuration list for PBXNativeTarget "NotSoCleverBotTests" */;
+			buildPhases = (
+				90CE29CE1EAA633300B8C6E0 /* Sources */,
+				90CE29CF1EAA633300B8C6E0 /* Frameworks */,
+				90CE29D01EAA633300B8C6E0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				90CE29D41EAA633300B8C6E0 /* PBXTargetDependency */,
+			);
+			name = NotSoCleverBotTests;
+			productName = NotSoCleverBotTests;
+			productReference = 90CE29D21EAA633300B8C6E0 /* NotSoCleverBotTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		90CE29DC1EAA633300B8C6E0 /* NotSoCleverBotUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 90CE29EC1EAA633300B8C6E0 /* Build configuration list for PBXNativeTarget "NotSoCleverBotUITests" */;
+			buildPhases = (
+				90CE29D91EAA633300B8C6E0 /* Sources */,
+				90CE29DA1EAA633300B8C6E0 /* Frameworks */,
+				90CE29DB1EAA633300B8C6E0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				90CE29DF1EAA633300B8C6E0 /* PBXTargetDependency */,
+			);
+			name = NotSoCleverBotUITests;
+			productName = NotSoCleverBotUITests;
+			productReference = 90CE29DD1EAA633300B8C6E0 /* NotSoCleverBotUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		90CE29B61EAA633300B8C6E0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Shane Nelson";
+				TargetAttributes = {
+					90CE29BD1EAA633300B8C6E0 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+					90CE29D11EAA633300B8C6E0 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 90CE29BD1EAA633300B8C6E0;
+					};
+					90CE29DC1EAA633300B8C6E0 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 90CE29BD1EAA633300B8C6E0;
+					};
+				};
+			};
+			buildConfigurationList = 90CE29B91EAA633300B8C6E0 /* Build configuration list for PBXProject "NotSoCleverBot" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 90CE29B51EAA633300B8C6E0;
+			productRefGroup = 90CE29BF1EAA633300B8C6E0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				90CE29BD1EAA633300B8C6E0 /* NotSoCleverBot */,
+				90CE29D11EAA633300B8C6E0 /* NotSoCleverBotTests */,
+				90CE29DC1EAA633300B8C6E0 /* NotSoCleverBotUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		90CE29BC1EAA633300B8C6E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90CE29CC1EAA633300B8C6E0 /* LaunchScreen.storyboard in Resources */,
+				90CE29C91EAA633300B8C6E0 /* Assets.xcassets in Resources */,
+				90CE29C71EAA633300B8C6E0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90CE29D01EAA633300B8C6E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90CE29DB1EAA633300B8C6E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		90CE29BA1EAA633300B8C6E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90CE29C41EAA633300B8C6E0 /* ViewController.swift in Sources */,
+				90CE29C21EAA633300B8C6E0 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90CE29CE1EAA633300B8C6E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90CE29D71EAA633300B8C6E0 /* NotSoCleverBotTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90CE29D91EAA633300B8C6E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90CE29E21EAA633300B8C6E0 /* NotSoCleverBotUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		90CE29D41EAA633300B8C6E0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 90CE29BD1EAA633300B8C6E0 /* NotSoCleverBot */;
+			targetProxy = 90CE29D31EAA633300B8C6E0 /* PBXContainerItemProxy */;
+		};
+		90CE29DF1EAA633300B8C6E0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 90CE29BD1EAA633300B8C6E0 /* NotSoCleverBot */;
+			targetProxy = 90CE29DE1EAA633300B8C6E0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		90CE29C51EAA633300B8C6E0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				90CE29C61EAA633300B8C6E0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		90CE29CA1EAA633300B8C6E0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				90CE29CB1EAA633300B8C6E0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		90CE29E41EAA633300B8C6E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		90CE29E51EAA633300B8C6E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		90CE29E71EAA633300B8C6E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = NotSoCleverBot/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "The-Iron-Yard.NotSoCleverBot";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		90CE29E81EAA633300B8C6E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = NotSoCleverBot/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "The-Iron-Yard.NotSoCleverBot";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		90CE29EA1EAA633300B8C6E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = NotSoCleverBotTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "The-Iron-Yard.NotSoCleverBotTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NotSoCleverBot.app/NotSoCleverBot";
+			};
+			name = Debug;
+		};
+		90CE29EB1EAA633300B8C6E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = NotSoCleverBotTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "The-Iron-Yard.NotSoCleverBotTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NotSoCleverBot.app/NotSoCleverBot";
+			};
+			name = Release;
+		};
+		90CE29ED1EAA633300B8C6E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = NotSoCleverBotUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "The-Iron-Yard.NotSoCleverBotUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = NotSoCleverBot;
+			};
+			name = Debug;
+		};
+		90CE29EE1EAA633300B8C6E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = NotSoCleverBotUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "The-Iron-Yard.NotSoCleverBotUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = NotSoCleverBot;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		90CE29B91EAA633300B8C6E0 /* Build configuration list for PBXProject "NotSoCleverBot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90CE29E41EAA633300B8C6E0 /* Debug */,
+				90CE29E51EAA633300B8C6E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		90CE29E61EAA633300B8C6E0 /* Build configuration list for PBXNativeTarget "NotSoCleverBot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90CE29E71EAA633300B8C6E0 /* Debug */,
+				90CE29E81EAA633300B8C6E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		90CE29E91EAA633300B8C6E0 /* Build configuration list for PBXNativeTarget "NotSoCleverBotTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90CE29EA1EAA633300B8C6E0 /* Debug */,
+				90CE29EB1EAA633300B8C6E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		90CE29EC1EAA633300B8C6E0 /* Build configuration list for PBXNativeTarget "NotSoCleverBotUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90CE29ED1EAA633300B8C6E0 /* Debug */,
+				90CE29EE1EAA633300B8C6E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 90CE29B61EAA633300B8C6E0 /* Project object */;
+}
