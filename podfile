@@ -1,0 +1,23 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'NotSoCleverBot' do
+  # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for NotSoCleverBot
+   pod "SlackTextViewController"
+   pod "Alamofire"
+   pod "SwiftyJSON"
+
+  target 'NotSoCleverBotTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'NotSoCleverBotUITests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end

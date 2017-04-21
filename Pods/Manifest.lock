@@ -1,0 +1,18 @@
+PODS:
+  - Alamofire (4.4.0)
+  - SlackTextViewController (1.9.5)
+  - SwiftyJSON (3.1.4)
+
+DEPENDENCIES:
+  - Alamofire
+  - SlackTextViewController
+  - SwiftyJSON
+
+SPEC CHECKSUMS:
+  Alamofire: dc44b1600b800eb63da6a19039a0083d62a6a62d
+  SlackTextViewController: fbcdadbb8090673f604484ff5b6eb8d77baed42a
+  SwiftyJSON: c2842d878f95482ffceec5709abc3d05680c0220
+
+PODFILE CHECKSUM: f746ebb8c5253e85f8e1bbe6c84f7c09e020f182
+
+COCOAPODS: 1.2.1
