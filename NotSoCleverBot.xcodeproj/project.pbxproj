@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7329CA042D866AEBAE91F4FF /* Pods_NotSoCleverBotTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 232A076B049A9A19EAF6BF18 /* Pods_NotSoCleverBotTests.framework */; };
+		90CD93CD1EAA84E500535DDB /* ChatTextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90CD93CC1EAA84E500535DDB /* ChatTextViewController.swift */; };
+		90CD93CF1EAA867700535DDB /* ExampleCall.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90CD93CE1EAA867700535DDB /* ExampleCall.swift */; };
 		90CE29C21EAA633300B8C6E0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90CE29C11EAA633300B8C6E0 /* AppDelegate.swift */; };
 		90CE29C41EAA633300B8C6E0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90CE29C31EAA633300B8C6E0 /* ViewController.swift */; };
 		90CE29C71EAA633300B8C6E0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90CE29C51EAA633300B8C6E0 /* Main.storyboard */; };
@@ -14,6 +17,9 @@
 		90CE29CC1EAA633300B8C6E0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90CE29CA1EAA633300B8C6E0 /* LaunchScreen.storyboard */; };
 		90CE29D71EAA633300B8C6E0 /* NotSoCleverBotTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90CE29D61EAA633300B8C6E0 /* NotSoCleverBotTests.swift */; };
 		90CE29E21EAA633300B8C6E0 /* NotSoCleverBotUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90CE29E11EAA633300B8C6E0 /* NotSoCleverBotUITests.swift */; };
+		90CE29F21EAA7A9D00B8C6E0 /* APIController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90CE29F11EAA7A9D00B8C6E0 /* APIController.swift */; };
+		DDB93F3D4EEDDFD5A1C63DA8 /* Pods_NotSoCleverBot.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC82122B75447B6701760636 /* Pods_NotSoCleverBot.framework */; };
+		F6AE69DD00E54CE341949582 /* Pods_NotSoCleverBotUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 610E11BAB778A3FCC121A810 /* Pods_NotSoCleverBotUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +40,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		232A076B049A9A19EAF6BF18 /* Pods_NotSoCleverBotTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NotSoCleverBotTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2ADBCE9C8237524EE16EBAF5 /* Pods-NotSoCleverBot.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NotSoCleverBot.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NotSoCleverBot/Pods-NotSoCleverBot.debug.xcconfig"; sourceTree = "<group>"; };
+		2BCFE730D0FFCDE8E8F93B5F /* Pods-NotSoCleverBotTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NotSoCleverBotTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NotSoCleverBotTests/Pods-NotSoCleverBotTests.debug.xcconfig"; sourceTree = "<group>"; };
+		4CC3A69B7FBA44F459D8D394 /* Pods-NotSoCleverBot.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NotSoCleverBot.release.xcconfig"; path = "Pods/Target Support Files/Pods-NotSoCleverBot/Pods-NotSoCleverBot.release.xcconfig"; sourceTree = "<group>"; };
+		610E11BAB778A3FCC121A810 /* Pods_NotSoCleverBotUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NotSoCleverBotUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6938D793AA3920667BE30F82 /* Pods-NotSoCleverBotTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NotSoCleverBotTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-NotSoCleverBotTests/Pods-NotSoCleverBotTests.release.xcconfig"; sourceTree = "<group>"; };
+		889B46505104B228E5CBC86E /* Pods-NotSoCleverBotUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NotSoCleverBotUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NotSoCleverBotUITests/Pods-NotSoCleverBotUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		88C7721E115C44AC999BA508 /* Pods-NotSoCleverBotUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NotSoCleverBotUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-NotSoCleverBotUITests/Pods-NotSoCleverBotUITests.release.xcconfig"; sourceTree = "<group>"; };
+		90CD93CC1EAA84E500535DDB /* ChatTextViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatTextViewController.swift; sourceTree = "<group>"; };
+		90CD93CE1EAA867700535DDB /* ExampleCall.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExampleCall.swift; sourceTree = "<group>"; };
 		90CE29BE1EAA633300B8C6E0 /* NotSoCleverBot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NotSoCleverBot.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		90CE29C11EAA633300B8C6E0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		90CE29C31EAA633300B8C6E0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +63,8 @@
 		90CE29DD1EAA633300B8C6E0 /* NotSoCleverBotUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NotSoCleverBotUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		90CE29E11EAA633300B8C6E0 /* NotSoCleverBotUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotSoCleverBotUITests.swift; sourceTree = "<group>"; };
 		90CE29E31EAA633300B8C6E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		90CE29F11EAA7A9D00B8C6E0 /* APIController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = APIController.swift; path = ../APIController.swift; sourceTree = "<group>"; };
+		AC82122B75447B6701760636 /* Pods_NotSoCleverBot.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NotSoCleverBot.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DDB93F3D4EEDDFD5A1C63DA8 /* Pods_NotSoCleverBot.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7329CA042D866AEBAE91F4FF /* Pods_NotSoCleverBotTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F6AE69DD00E54CE341949582 /* Pods_NotSoCleverBotUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +102,8 @@
 				90CE29D51EAA633300B8C6E0 /* NotSoCleverBotTests */,
 				90CE29E01EAA633300B8C6E0 /* NotSoCleverBotUITests */,
 				90CE29BF1EAA633300B8C6E0 /* Products */,
+				E72006AC6F6A1772C6D4EFB5 /* Pods */,
+				EC934EBAE6830C278B913E81 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,9 +120,12 @@
 		90CE29C01EAA633300B8C6E0 /* NotSoCleverBot */ = {
 			isa = PBXGroup;
 			children = (
+				90CE29F11EAA7A9D00B8C6E0 /* APIController.swift */,
+				90CD93CE1EAA867700535DDB /* ExampleCall.swift */,
 				90CE29C11EAA633300B8C6E0 /* AppDelegate.swift */,
 				90CE29C31EAA633300B8C6E0 /* ViewController.swift */,
 				90CE29C51EAA633300B8C6E0 /* Main.storyboard */,
+				90CD93CC1EAA84E500535DDB /* ChatTextViewController.swift */,
 				90CE29C81EAA633300B8C6E0 /* Assets.xcassets */,
 				90CE29CA1EAA633300B8C6E0 /* LaunchScreen.storyboard */,
 				90CE29CD1EAA633300B8C6E0 /* Info.plist */,
@@ -125,6 +151,29 @@
 			path = NotSoCleverBotUITests;
 			sourceTree = "<group>";
 		};
+		E72006AC6F6A1772C6D4EFB5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2ADBCE9C8237524EE16EBAF5 /* Pods-NotSoCleverBot.debug.xcconfig */,
+				4CC3A69B7FBA44F459D8D394 /* Pods-NotSoCleverBot.release.xcconfig */,
+				2BCFE730D0FFCDE8E8F93B5F /* Pods-NotSoCleverBotTests.debug.xcconfig */,
+				6938D793AA3920667BE30F82 /* Pods-NotSoCleverBotTests.release.xcconfig */,
+				889B46505104B228E5CBC86E /* Pods-NotSoCleverBotUITests.debug.xcconfig */,
+				88C7721E115C44AC999BA508 /* Pods-NotSoCleverBotUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		EC934EBAE6830C278B913E81 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AC82122B75447B6701760636 /* Pods_NotSoCleverBot.framework */,
+				232A076B049A9A19EAF6BF18 /* Pods_NotSoCleverBotTests.framework */,
+				610E11BAB778A3FCC121A810 /* Pods_NotSoCleverBotUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +181,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 90CE29E61EAA633300B8C6E0 /* Build configuration list for PBXNativeTarget "NotSoCleverBot" */;
 			buildPhases = (
+				15A78C29E47C0B7591328173 /* [CP] Check Pods Manifest.lock */,
 				90CE29BA1EAA633300B8C6E0 /* Sources */,
 				90CE29BB1EAA633300B8C6E0 /* Frameworks */,
 				90CE29BC1EAA633300B8C6E0 /* Resources */,
+				310573CB20AA87B6393A4923 /* [CP] Embed Pods Frameworks */,
+				F77B3B8D7B10BA08DF5BE95E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +201,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 90CE29E91EAA633300B8C6E0 /* Build configuration list for PBXNativeTarget "NotSoCleverBotTests" */;
 			buildPhases = (
+				0E8B9CF90CE3B57E6054137D /* [CP] Check Pods Manifest.lock */,
 				90CE29CE1EAA633300B8C6E0 /* Sources */,
 				90CE29CF1EAA633300B8C6E0 /* Frameworks */,
 				90CE29D01EAA633300B8C6E0 /* Resources */,
+				11EF1D636141FC15EA17E466 /* [CP] Embed Pods Frameworks */,
+				52AD56994C868FD88D10B381 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +222,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 90CE29EC1EAA633300B8C6E0 /* Build configuration list for PBXNativeTarget "NotSoCleverBotUITests" */;
 			buildPhases = (
+				1FC3C013B037040A9EEFD4CB /* [CP] Check Pods Manifest.lock */,
 				90CE29D91EAA633300B8C6E0 /* Sources */,
 				90CE29DA1EAA633300B8C6E0 /* Frameworks */,
 				90CE29DB1EAA633300B8C6E0 /* Resources */,
+				934F823114C1C8BE32325C85 /* [CP] Embed Pods Frameworks */,
+				58DC10C4224BE248792CF538 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -254,13 +312,154 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0E8B9CF90CE3B57E6054137D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		11EF1D636141FC15EA17E466 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NotSoCleverBotTests/Pods-NotSoCleverBotTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		15A78C29E47C0B7591328173 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		1FC3C013B037040A9EEFD4CB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		310573CB20AA87B6393A4923 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NotSoCleverBot/Pods-NotSoCleverBot-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		52AD56994C868FD88D10B381 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NotSoCleverBotTests/Pods-NotSoCleverBotTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		58DC10C4224BE248792CF538 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NotSoCleverBotUITests/Pods-NotSoCleverBotUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		934F823114C1C8BE32325C85 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NotSoCleverBotUITests/Pods-NotSoCleverBotUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F77B3B8D7B10BA08DF5BE95E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NotSoCleverBot/Pods-NotSoCleverBot-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		90CE29BA1EAA633300B8C6E0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				90CD93CF1EAA867700535DDB /* ExampleCall.swift in Sources */,
 				90CE29C41EAA633300B8C6E0 /* ViewController.swift in Sources */,
 				90CE29C21EAA633300B8C6E0 /* AppDelegate.swift in Sources */,
+				90CE29F21EAA7A9D00B8C6E0 /* APIController.swift in Sources */,
+				90CD93CD1EAA84E500535DDB /* ChatTextViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,6 +611,7 @@
 		};
 		90CE29E71EAA633300B8C6E0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2ADBCE9C8237524EE16EBAF5 /* Pods-NotSoCleverBot.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = NotSoCleverBot/Info.plist;
@@ -424,6 +624,7 @@
 		};
 		90CE29E81EAA633300B8C6E0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4CC3A69B7FBA44F459D8D394 /* Pods-NotSoCleverBot.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = NotSoCleverBot/Info.plist;
@@ -436,6 +637,7 @@
 		};
 		90CE29EA1EAA633300B8C6E0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2BCFE730D0FFCDE8E8F93B5F /* Pods-NotSoCleverBotTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -450,6 +652,7 @@
 		};
 		90CE29EB1EAA633300B8C6E0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6938D793AA3920667BE30F82 /* Pods-NotSoCleverBotTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -464,6 +667,7 @@
 		};
 		90CE29ED1EAA633300B8C6E0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 889B46505104B228E5CBC86E /* Pods-NotSoCleverBotUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = NotSoCleverBotUITests/Info.plist;
@@ -477,6 +681,7 @@
 		};
 		90CE29EE1EAA633300B8C6E0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 88C7721E115C44AC999BA508 /* Pods-NotSoCleverBotUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = NotSoCleverBotUITests/Info.plist;
@@ -507,6 +712,7 @@
 				90CE29E81EAA633300B8C6E0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		90CE29E91EAA633300B8C6E0 /* Build configuration list for PBXNativeTarget "NotSoCleverBotTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +721,7 @@
 				90CE29EB1EAA633300B8C6E0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		90CE29EC1EAA633300B8C6E0 /* Build configuration list for PBXNativeTarget "NotSoCleverBotUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +730,7 @@
 				90CE29EE1EAA633300B8C6E0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
