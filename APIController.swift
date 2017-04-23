@@ -19,7 +19,7 @@ import SwiftyJSON
 
 protocol APIControllerDelegate
 {
-    func apiController(ac: APIController, didReceive reply: String)
+    func apiController(ac: APIController, didReceive json: JSON)
 }
 
 class APIController
@@ -47,13 +47,13 @@ class APIController
         let request = Alamofire.request(baseURL, method: .get, parameters: parameters)
         
         request.responseJSON { response in
-            debugPrint(response)
+//            debugPrint(response)
             if let value = response.value
             {
                 let json = JSON(value)
                 self.csID = json["cs"].stringValue
                 
-                print(json.dictionaryObject!)
+                self.delegate.apiController(ac: self, didReceive: json)
             }
         }
     }

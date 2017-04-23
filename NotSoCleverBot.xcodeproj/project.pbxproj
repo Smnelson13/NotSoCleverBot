@@ -8,10 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		7329CA042D866AEBAE91F4FF /* Pods_NotSoCleverBotTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 232A076B049A9A19EAF6BF18 /* Pods_NotSoCleverBotTests.framework */; };
+		9002683B1EAC1D0600133807 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9002683A1EAC1D0600133807 /* Message.swift */; };
+		900268401EAC2B1400133807 /* UserMessageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9002683F1EAC2B1400133807 /* UserMessageCell.xib */; };
+		900268421EAC2FAB00133807 /* BotMessageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 900268411EAC2FAB00133807 /* BotMessageCell.xib */; };
+		900268441EAC309000133807 /* MessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 900268431EAC309000133807 /* MessageCell.swift */; };
 		90CD93CD1EAA84E500535DDB /* ChatTextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90CD93CC1EAA84E500535DDB /* ChatTextViewController.swift */; };
 		90CD93CF1EAA867700535DDB /* ExampleCall.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90CD93CE1EAA867700535DDB /* ExampleCall.swift */; };
 		90CE29C21EAA633300B8C6E0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90CE29C11EAA633300B8C6E0 /* AppDelegate.swift */; };
-		90CE29C41EAA633300B8C6E0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90CE29C31EAA633300B8C6E0 /* ViewController.swift */; };
 		90CE29C71EAA633300B8C6E0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90CE29C51EAA633300B8C6E0 /* Main.storyboard */; };
 		90CE29C91EAA633300B8C6E0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90CE29C81EAA633300B8C6E0 /* Assets.xcassets */; };
 		90CE29CC1EAA633300B8C6E0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90CE29CA1EAA633300B8C6E0 /* LaunchScreen.storyboard */; };
@@ -48,11 +51,14 @@
 		6938D793AA3920667BE30F82 /* Pods-NotSoCleverBotTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NotSoCleverBotTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-NotSoCleverBotTests/Pods-NotSoCleverBotTests.release.xcconfig"; sourceTree = "<group>"; };
 		889B46505104B228E5CBC86E /* Pods-NotSoCleverBotUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NotSoCleverBotUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NotSoCleverBotUITests/Pods-NotSoCleverBotUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		88C7721E115C44AC999BA508 /* Pods-NotSoCleverBotUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NotSoCleverBotUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-NotSoCleverBotUITests/Pods-NotSoCleverBotUITests.release.xcconfig"; sourceTree = "<group>"; };
+		9002683A1EAC1D0600133807 /* Message.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		9002683F1EAC2B1400133807 /* UserMessageCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UserMessageCell.xib; sourceTree = "<group>"; };
+		900268411EAC2FAB00133807 /* BotMessageCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BotMessageCell.xib; sourceTree = "<group>"; };
+		900268431EAC309000133807 /* MessageCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageCell.swift; sourceTree = "<group>"; };
 		90CD93CC1EAA84E500535DDB /* ChatTextViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatTextViewController.swift; sourceTree = "<group>"; };
 		90CD93CE1EAA867700535DDB /* ExampleCall.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExampleCall.swift; sourceTree = "<group>"; };
 		90CE29BE1EAA633300B8C6E0 /* NotSoCleverBot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NotSoCleverBot.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		90CE29C11EAA633300B8C6E0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		90CE29C31EAA633300B8C6E0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		90CE29C61EAA633300B8C6E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		90CE29C81EAA633300B8C6E0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		90CE29CB1EAA633300B8C6E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -95,6 +101,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9002683C1EAC1EC700133807 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				90CD93CE1EAA867700535DDB /* ExampleCall.swift */,
+				90CE29C11EAA633300B8C6E0 /* AppDelegate.swift */,
+				90CE29C81EAA633300B8C6E0 /* Assets.xcassets */,
+				90CE29CA1EAA633300B8C6E0 /* LaunchScreen.storyboard */,
+				90CE29CD1EAA633300B8C6E0 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		90CE29B51EAA633300B8C6E0 = {
 			isa = PBXGroup;
 			children = (
@@ -120,15 +138,14 @@
 		90CE29C01EAA633300B8C6E0 /* NotSoCleverBot */ = {
 			isa = PBXGroup;
 			children = (
-				90CE29F11EAA7A9D00B8C6E0 /* APIController.swift */,
-				90CD93CE1EAA867700535DDB /* ExampleCall.swift */,
-				90CE29C11EAA633300B8C6E0 /* AppDelegate.swift */,
-				90CE29C31EAA633300B8C6E0 /* ViewController.swift */,
 				90CE29C51EAA633300B8C6E0 /* Main.storyboard */,
+				90CE29F11EAA7A9D00B8C6E0 /* APIController.swift */,
 				90CD93CC1EAA84E500535DDB /* ChatTextViewController.swift */,
-				90CE29C81EAA633300B8C6E0 /* Assets.xcassets */,
-				90CE29CA1EAA633300B8C6E0 /* LaunchScreen.storyboard */,
-				90CE29CD1EAA633300B8C6E0 /* Info.plist */,
+				9002683A1EAC1D0600133807 /* Message.swift */,
+				9002683C1EAC1EC700133807 /* Supporting Files */,
+				9002683F1EAC2B1400133807 /* UserMessageCell.xib */,
+				900268411EAC2FAB00133807 /* BotMessageCell.xib */,
+				900268431EAC309000133807 /* MessageCell.swift */,
 			);
 			path = NotSoCleverBot;
 			sourceTree = "<group>";
@@ -291,6 +308,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				90CE29CC1EAA633300B8C6E0 /* LaunchScreen.storyboard in Resources */,
+				900268421EAC2FAB00133807 /* BotMessageCell.xib in Resources */,
+				900268401EAC2B1400133807 /* UserMessageCell.xib in Resources */,
 				90CE29C91EAA633300B8C6E0 /* Assets.xcassets in Resources */,
 				90CE29C71EAA633300B8C6E0 /* Main.storyboard in Resources */,
 			);
@@ -456,10 +475,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				90CD93CF1EAA867700535DDB /* ExampleCall.swift in Sources */,
-				90CE29C41EAA633300B8C6E0 /* ViewController.swift in Sources */,
 				90CE29C21EAA633300B8C6E0 /* AppDelegate.swift in Sources */,
+				9002683B1EAC1D0600133807 /* Message.swift in Sources */,
 				90CE29F21EAA7A9D00B8C6E0 /* APIController.swift in Sources */,
 				90CD93CD1EAA84E500535DDB /* ChatTextViewController.swift in Sources */,
+				900268441EAC309000133807 /* MessageCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
