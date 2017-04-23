@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="9rS-Zv-dg8">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -9,6 +9,47 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
+        <!--Home Screen View Controller-->
+        <scene sceneID="cl0-es-KLy">
+            <objects>
+                <viewController id="9rS-Zv-dg8" customClass="HomeScreenViewController" customModule="NotSoCleverBot" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Cgm-mV-0aU"/>
+                        <viewControllerLayoutGuide type="bottom" id="dXX-Ez-4R8"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="haW-vA-3Oa">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kcD-tx-HDJ">
+                                <rect key="frame" x="149" y="311.5" width="77" height="44"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="26"/>
+                                <state key="normal" title="Button">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
+                                <connections>
+                                    <action selector="goToChat:" destination="9rS-Zv-dg8" eventType="touchUpInside" id="ZJT-9r-rs1"/>
+                                    <segue destination="NZb-kw-XsC" kind="presentation" identifier="AnimationSegue" modalTransitionStyle="flipHorizontal" id="L07-Y1-a8K"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="cleverbot-logo-2.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="9h4-sI-7EC">
+                                <rect key="frame" x="0.0" y="37" width="375" height="261"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="kcD-tx-HDJ" firstAttribute="centerY" secondItem="haW-vA-3Oa" secondAttribute="centerY" id="JyV-vx-LxJ"/>
+                            <constraint firstItem="kcD-tx-HDJ" firstAttribute="centerX" secondItem="haW-vA-3Oa" secondAttribute="centerX" id="XiG-eP-wD8"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="6Sl-gp-4f7" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-90" y="481"/>
+        </scene>
         <!--Chat Text View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
@@ -20,11 +61,36 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
+                    <navigationItem key="navigationItem" id="oxl-NE-41V">
+                        <barButtonItem key="leftBarButtonItem" systemItem="done" id="461-9D-VNn"/>
+                    </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="1983.2" y="480.80959520239884"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="L8x-Y5-D3f">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="NZb-kw-XsC" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="3Nv-as-fno">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="kJQ-T5-PG7"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="58a-n9-De2" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1044" y="480.80959520239884"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="cleverbot-logo-2.jpg" width="500" height="500"/>
+    </resources>
 </document>

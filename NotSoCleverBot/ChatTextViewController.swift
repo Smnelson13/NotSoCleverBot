@@ -20,6 +20,10 @@ class ChatTextViewController: SLKTextViewController
   
   override func viewDidLoad()
   {
+    let headerView = UIView(frame: CGRect(x: 0, y: 0, width: view.frame.size.width, height: 20))
+    headerView.backgroundColor = .black
+    view.addSubview(headerView)
+    
     super.viewDidLoad()
     api = APIController(delegate: self)
     
@@ -103,4 +107,20 @@ extension ChatTextViewController: APIControllerDelegate
     messages.insert(message, at: 0)
     tableView?.reloadData()
   }
+  
+  override func prepare(for segue: UIStoryboardSegue, sender: Any?)
+  {
+    if segue.identifier == "AnimationSegue"
+    {
+      let secondVC = segue.destination as! HomeScreenViewController
+      secondVC.transitioningDelegate = self as? UIViewControllerTransitioningDelegate
+      secondVC.modalPresentationStyle = .custom
+    }
+  
+  }
+
 }
+
+
+
+
