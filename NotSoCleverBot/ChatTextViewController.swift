@@ -12,6 +12,11 @@ import SwiftyJSON
 
 class ChatTextViewController: SLKTextViewController
 {
+  @IBAction func doneButton(_ sender: UINavigationController)
+  {
+    dismiss(animated: true, completion: nil)
+  }
+  
   var api: APIController!
   var messages = [Message]()
   
@@ -20,9 +25,7 @@ class ChatTextViewController: SLKTextViewController
   
   override func viewDidLoad()
   {
-    let headerView = UIView(frame: CGRect(x: 0, y: 0, width: view.frame.size.width, height: 20))
-    headerView.backgroundColor = .black
-    view.addSubview(headerView)
+   
     
     super.viewDidLoad()
     api = APIController(delegate: self)

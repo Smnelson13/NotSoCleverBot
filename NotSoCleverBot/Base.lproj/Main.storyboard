@@ -6,6 +6,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -22,18 +23,19 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kcD-tx-HDJ">
-                                <rect key="frame" x="149" y="311.5" width="77" height="44"/>
+                                <rect key="frame" x="94" y="311.5" width="187.5" height="44"/>
+                                <color key="backgroundColor" red="0.20784313730000001" green="0.53333333329999999" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="26"/>
-                                <state key="normal" title="Button">
-                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <state key="normal" title="Lets go!">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
                                     <action selector="goToChat:" destination="9rS-Zv-dg8" eventType="touchUpInside" id="ZJT-9r-rs1"/>
-                                    <segue destination="NZb-kw-XsC" kind="presentation" identifier="AnimationSegue" modalTransitionStyle="flipHorizontal" id="L07-Y1-a8K"/>
+                                    <segue destination="Nun-jH-viu" kind="presentation" modalTransitionStyle="flipHorizontal" id="W9Z-hS-aKo"/>
                                 </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="cleverbot-logo-2.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="9h4-sI-7EC">
-                                <rect key="frame" x="0.0" y="37" width="375" height="261"/>
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="261"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                             </imageView>
@@ -41,6 +43,7 @@
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                         <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
+                            <constraint firstItem="kcD-tx-HDJ" firstAttribute="width" secondItem="haW-vA-3Oa" secondAttribute="width" multiplier="0.5" id="A6v-wS-XxH"/>
                             <constraint firstItem="kcD-tx-HDJ" firstAttribute="centerY" secondItem="haW-vA-3Oa" secondAttribute="centerY" id="JyV-vx-LxJ"/>
                             <constraint firstItem="kcD-tx-HDJ" firstAttribute="centerX" secondItem="haW-vA-3Oa" secondAttribute="centerX" id="XiG-eP-wD8"/>
                         </constraints>
@@ -48,7 +51,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6Sl-gp-4f7" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-90" y="481"/>
+            <point key="canvasLocation" x="1276" y="481"/>
         </scene>
         <!--Chat Text View Controller-->
         <scene sceneID="tne-QT-ifu">
@@ -64,30 +67,34 @@
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <navigationItem key="navigationItem" id="oxl-NE-41V">
-                        <barButtonItem key="leftBarButtonItem" systemItem="done" id="461-9D-VNn"/>
+                        <barButtonItem key="leftBarButtonItem" systemItem="done" id="zRL-UU-RWk">
+                            <connections>
+                                <action selector="doneButton:" destination="BYZ-38-t0r" id="GnE-1U-QAo"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1983.2" y="480.80959520239884"/>
+            <point key="canvasLocation" x="3050" y="481"/>
         </scene>
         <!--Navigation Controller-->
-        <scene sceneID="L8x-Y5-D3f">
+        <scene sceneID="K1P-DS-vBd">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="NZb-kw-XsC" sceneMemberID="viewController">
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Nun-jH-viu" sceneMemberID="viewController">
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="3Nv-as-fno">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="xAK-EV-v7x">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
-                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="kJQ-T5-PG7"/>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="Jqp-V1-cE2"/>
                     </connections>
                 </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="58a-n9-De2" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="9lL-7c-SLB" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1044" y="480.80959520239884"/>
+            <point key="canvasLocation" x="2154" y="481"/>
         </scene>
     </scenes>
     <resources>
