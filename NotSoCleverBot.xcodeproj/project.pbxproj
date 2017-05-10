@@ -12,8 +12,8 @@
 		900268401EAC2B1400133807 /* UserMessageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9002683F1EAC2B1400133807 /* UserMessageCell.xib */; };
 		900268421EAC2FAB00133807 /* BotMessageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 900268411EAC2FAB00133807 /* BotMessageCell.xib */; };
 		900268441EAC309000133807 /* MessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 900268431EAC309000133807 /* MessageCell.swift */; };
-		902126861EAD5EE900324169 /* cleverbot-logo-2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 902126851EAD5EE900324169 /* cleverbot-logo-2.jpg */; };
 		907775FE1EAD2A4F0019FAF9 /* HomeScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 907775FD1EAD2A4F0019FAF9 /* HomeScreenViewController.swift */; };
+		90AE8A9D1EC2C2910002B207 /* NotSoCleverBotAPITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90AE8A9C1EC2C2910002B207 /* NotSoCleverBotAPITests.swift */; };
 		90CD93CD1EAA84E500535DDB /* ChatTextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90CD93CC1EAA84E500535DDB /* ChatTextViewController.swift */; };
 		90CD93CF1EAA867700535DDB /* ExampleCall.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90CD93CE1EAA867700535DDB /* ExampleCall.swift */; };
 		90CE29C21EAA633300B8C6E0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90CE29C11EAA633300B8C6E0 /* AppDelegate.swift */; };
@@ -28,6 +28,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		90AE8A9F1EC2C2910002B207 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 90CE29B61EAA633300B8C6E0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 90CE29BD1EAA633300B8C6E0;
+			remoteInfo = NotSoCleverBot;
+		};
 		90CE29D31EAA633300B8C6E0 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 90CE29B61EAA633300B8C6E0 /* Project object */;
@@ -57,8 +64,10 @@
 		9002683F1EAC2B1400133807 /* UserMessageCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UserMessageCell.xib; sourceTree = "<group>"; };
 		900268411EAC2FAB00133807 /* BotMessageCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BotMessageCell.xib; sourceTree = "<group>"; };
 		900268431EAC309000133807 /* MessageCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageCell.swift; sourceTree = "<group>"; };
-		902126851EAD5EE900324169 /* cleverbot-logo-2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "cleverbot-logo-2.jpg"; path = "../../cleverbot-logo-2.jpg"; sourceTree = "<group>"; };
 		907775FD1EAD2A4F0019FAF9 /* HomeScreenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeScreenViewController.swift; sourceTree = "<group>"; };
+		90AE8A9A1EC2C2910002B207 /* NotSoCleverBotAPITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NotSoCleverBotAPITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		90AE8A9C1EC2C2910002B207 /* NotSoCleverBotAPITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotSoCleverBotAPITests.swift; sourceTree = "<group>"; };
+		90AE8A9E1EC2C2910002B207 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		90CD93CC1EAA84E500535DDB /* ChatTextViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatTextViewController.swift; sourceTree = "<group>"; };
 		90CD93CE1EAA867700535DDB /* ExampleCall.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExampleCall.swift; sourceTree = "<group>"; };
 		90CE29BE1EAA633300B8C6E0 /* NotSoCleverBot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NotSoCleverBot.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -78,6 +87,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		90AE8A971EC2C2910002B207 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		90CE29BB1EAA633300B8C6E0 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -108,7 +124,6 @@
 		9002683C1EAC1EC700133807 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				902126851EAD5EE900324169 /* cleverbot-logo-2.jpg */,
 				90CD93CE1EAA867700535DDB /* ExampleCall.swift */,
 				90CE29C11EAA633300B8C6E0 /* AppDelegate.swift */,
 				90CE29C81EAA633300B8C6E0 /* Assets.xcassets */,
@@ -118,12 +133,22 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		90AE8A9B1EC2C2910002B207 /* NotSoCleverBotAPITests */ = {
+			isa = PBXGroup;
+			children = (
+				90AE8A9C1EC2C2910002B207 /* NotSoCleverBotAPITests.swift */,
+				90AE8A9E1EC2C2910002B207 /* Info.plist */,
+			);
+			path = NotSoCleverBotAPITests;
+			sourceTree = "<group>";
+		};
 		90CE29B51EAA633300B8C6E0 = {
 			isa = PBXGroup;
 			children = (
 				90CE29C01EAA633300B8C6E0 /* NotSoCleverBot */,
 				90CE29D51EAA633300B8C6E0 /* NotSoCleverBotTests */,
 				90CE29E01EAA633300B8C6E0 /* NotSoCleverBotUITests */,
+				90AE8A9B1EC2C2910002B207 /* NotSoCleverBotAPITests */,
 				90CE29BF1EAA633300B8C6E0 /* Products */,
 				E72006AC6F6A1772C6D4EFB5 /* Pods */,
 				EC934EBAE6830C278B913E81 /* Frameworks */,
@@ -136,6 +161,7 @@
 				90CE29BE1EAA633300B8C6E0 /* NotSoCleverBot.app */,
 				90CE29D21EAA633300B8C6E0 /* NotSoCleverBotTests.xctest */,
 				90CE29DD1EAA633300B8C6E0 /* NotSoCleverBotUITests.xctest */,
+				90AE8A9A1EC2C2910002B207 /* NotSoCleverBotAPITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -200,6 +226,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		90AE8A991EC2C2910002B207 /* NotSoCleverBotAPITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 90AE8AA11EC2C2910002B207 /* Build configuration list for PBXNativeTarget "NotSoCleverBotAPITests" */;
+			buildPhases = (
+				90AE8A961EC2C2910002B207 /* Sources */,
+				90AE8A971EC2C2910002B207 /* Frameworks */,
+				90AE8A981EC2C2910002B207 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				90AE8AA01EC2C2910002B207 /* PBXTargetDependency */,
+			);
+			name = NotSoCleverBotAPITests;
+			productName = NotSoCleverBotAPITests;
+			productReference = 90AE8A9A1EC2C2910002B207 /* NotSoCleverBotAPITests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		90CE29BD1EAA633300B8C6E0 /* NotSoCleverBot */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 90CE29E61EAA633300B8C6E0 /* Build configuration list for PBXNativeTarget "NotSoCleverBot" */;
@@ -272,6 +316,12 @@
 				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = "Shane Nelson";
 				TargetAttributes = {
+					90AE8A991EC2C2910002B207 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 5CZ45M6538;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 90CE29BD1EAA633300B8C6E0;
+					};
 					90CE29BD1EAA633300B8C6E0 = {
 						CreatedOnToolsVersion = 8.3.2;
 						ProvisioningStyle = Automatic;
@@ -304,11 +354,19 @@
 				90CE29BD1EAA633300B8C6E0 /* NotSoCleverBot */,
 				90CE29D11EAA633300B8C6E0 /* NotSoCleverBotTests */,
 				90CE29DC1EAA633300B8C6E0 /* NotSoCleverBotUITests */,
+				90AE8A991EC2C2910002B207 /* NotSoCleverBotAPITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		90AE8A981EC2C2910002B207 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		90CE29BC1EAA633300B8C6E0 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -317,7 +375,6 @@
 				900268421EAC2FAB00133807 /* BotMessageCell.xib in Resources */,
 				900268401EAC2B1400133807 /* UserMessageCell.xib in Resources */,
 				90CE29C91EAA633300B8C6E0 /* Assets.xcassets in Resources */,
-				902126861EAD5EE900324169 /* cleverbot-logo-2.jpg in Resources */,
 				90CE29C71EAA633300B8C6E0 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -477,6 +534,14 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		90AE8A961EC2C2910002B207 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90AE8A9D1EC2C2910002B207 /* NotSoCleverBotAPITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		90CE29BA1EAA633300B8C6E0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -510,6 +575,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		90AE8AA01EC2C2910002B207 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 90CE29BD1EAA633300B8C6E0 /* NotSoCleverBot */;
+			targetProxy = 90AE8A9F1EC2C2910002B207 /* PBXContainerItemProxy */;
+		};
 		90CE29D41EAA633300B8C6E0 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 90CE29BD1EAA633300B8C6E0 /* NotSoCleverBot */;
@@ -542,6 +612,34 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		90AE8AA21EC2C2910002B207 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 5CZ45M6538;
+				INFOPLIST_FILE = NotSoCleverBotAPITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "The-Iron-Yard.NotSoCleverBotAPITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NotSoCleverBot.app/NotSoCleverBot";
+			};
+			name = Debug;
+		};
+		90AE8AA31EC2C2910002B207 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 5CZ45M6538;
+				INFOPLIST_FILE = NotSoCleverBotAPITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "The-Iron-Yard.NotSoCleverBotAPITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NotSoCleverBot.app/NotSoCleverBot";
+			};
+			name = Release;
+		};
 		90CE29E41EAA633300B8C6E0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -724,6 +822,14 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		90AE8AA11EC2C2910002B207 /* Build configuration list for PBXNativeTarget "NotSoCleverBotAPITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90AE8AA21EC2C2910002B207 /* Debug */,
+				90AE8AA31EC2C2910002B207 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		90CE29B91EAA633300B8C6E0 /* Build configuration list for PBXProject "NotSoCleverBot" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
